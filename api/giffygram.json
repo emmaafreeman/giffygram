@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "ron@pawnee.gov",
+      "name": "Ron",
+      "password": "lagavulin"
+    },
+    {
+      "id": 2,
+      "email": "andy@pawnee.gov",
+      "name": "Andy",
+      "password": "burtmacklinFBI"
+    },
+    {
+      "id": 3,
+      "email": "leslie@pawnee.gov",
+      "name": "Leslie",
+      "password": "joebiden"
+    },
+    {
+      "id": 4,
+      "email": "emmameiervogel@gmail.com",
+      "name": "Emma",
+      "password": "hello"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "HOORAY!",
+      "url": "https://media.giphy.com/media/DRNHiOI54DlW3MBO30/giphy.gif",
+      "story": "story goes here",
+      "date": "06/06/06",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "title": "This is fine.",
+      "url": "https://media.giphy.com/media/sgZdwNkOH43wZOEUJ2/giphy.gif",
+      "story": "story goes here",
+      "date": "07/07/07",
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "title": "HELP",
+      "url": "https://media.giphy.com/media/IqT61FbhucmalLjuOH/giphy.gif",
+      "story": "actual footage of me coding",
+      "date": "08/08/08",
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "title": "&#128556",
+      "url": "https://media.giphy.com/media/KOobSqJrq9lA2ypra6/giphy.gif",
+      "story": "story goes here",
+      "date": "09/09/09",
+      "userId": 1
+    },
+    {
+      "title": "test",
+      "url": "https://media.giphy.com/media/DRNHiOI54DlW3MBO30/giphy.gif",
+      "story": "test",
+      "date": "2021-07-27T02:10:39.226Z",
+      "userId": 1,
+      "id": 5
+    }
+  ],
+  "likes": [
+    {
+      "id": 1,
+      "userId": 1,
+      "postId": 2
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "postId": 3
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "postId": 1
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "postId": 3
+    },
+    {
+      "postId": 1,
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "postId": 1,
+      "id": 6
+    }
+  ],
+  "messages": []
+}

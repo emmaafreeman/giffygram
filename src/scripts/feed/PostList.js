@@ -1,7 +1,6 @@
 import { Post } from "./Post.js"
 import { getPosts, getUsers, getChosenUser, setChosenUser } from '../data/provider.js'
 
-
 const applicationElement = document.querySelector('.giffygram')
 
 /////// function to user who posted the gif
@@ -15,7 +14,6 @@ const findUser = (post, users) => {
   }
 
   return postUser
-
 } /////// end function to user who posted the gif
 
 const findChosenUserPost = (user, posts) => {
